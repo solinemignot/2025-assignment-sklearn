@@ -1,3 +1,10 @@
+"""Custom scikit-learn estimator and cross-validator.
+
+This module implements:
+- A KNearestNeighbors classifier compatible with scikit-learn.
+- A MonthlySplit cross-validator based on datetime information.
+"""
+
 import numpy as np
 import pandas as pd
 
